@@ -4,7 +4,7 @@ import threading
 # Функция для отправки сообщений на сервер
 def send_message(sock):
     while True:
-        message = input("Введите камень, ножницы или бумагу: ")
+        message = input()
         sock.send(message.encode())
 
 # Функция для получения сообщений от сервера
