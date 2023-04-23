@@ -25,7 +25,7 @@ while True:
     print(result_message)
 
     # Если есть победитель, выходим из цикла
-    if 'Победил: Игрок' in result_message or 'Победил: Никто' in result_message:
+    if 'Победил: Игрок' in result_message in result_message:
         break
 
 # Закрываем соединение с сервером
